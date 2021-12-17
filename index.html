@@ -29,7 +29,8 @@
 <body>
    <header>
       <!-- Fixed navbar -->
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <nav id="navbar-top"
+           class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
          <div class="container">
             <a class="navbar-brand"
                href="#">MOOC YRU</a>
@@ -679,7 +680,7 @@
             <a href="#"
                class="text-muted">Back to top</a>
          </p>
-         <h4 class="text-brown fw-bold">ติดต่อสอบถาม</h4>
+         <h3 class="text-brown fw-bold">ติดต่อสอบถาม</h3>
          <p class="mb-4">
             อาคารเทคโนโลยีสารสนเทศ มหาวิทยาลัยราชภัฏยะลา <br>
             หมายเลขโทรศัพท์ 073-299699 ต่อ 20000 <br>
@@ -690,9 +691,18 @@
       </div>
    </footer>
 
-
    <script src="./assets/plugins/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-
+   <script>
+      var myNav = document.getElementById("navbar-top");
+      window.onscroll = function () {
+         "use strict";
+         if (document.body.scrollTop >= 300 || document.documentElement.scrollTop >= 300) {
+            myNav.classList.add("navbar-solid");
+         } else {
+            myNav.classList.remove("navbar-solid");
+         }
+      };
+   </script>
 
 </body>
 

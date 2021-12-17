@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;800&display=swap");
 .highlight-primary {
   color: #f4313f !important;
 }
@@ -20,6 +20,15 @@ header {
   background-size: cover;
   background-position: center center;
   height: 45rem;
+}
+
+.navbar {
+  background-color: rgba(33, 37, 41, 0.75) !important;
+}
+
+.navbar.navbar-solid {
+  background-color: #212529 !important;
+  transition: opacity 250ms ease-in;
 }
 
 .btn-xprimary {
