@@ -1,9 +1,12 @@
 $tone-primary: #f4313f !default;
 $tone-white: white !default;
-$tone-brown: #555555 !default;
 $tone-gray: #fcfcfc !default;
+
+$color-pink: #ff80c0 !default;
+$color-brown: #555555 !default;
+
 $line-height: 1.2;
 
-.highlight-primary{
-   color: $tone-primary !important;
+.highlight-primary {
+    color: $tone-primary !important;
 }

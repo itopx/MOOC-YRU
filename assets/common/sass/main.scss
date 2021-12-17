@@ -11,6 +11,15 @@ h1, h2, h3 {
     font-weight: 700;
 }
 
+header {
+    background-color: #eee;
+    background-image: url(../../images/pexels-thisisengineering-3861458.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 45rem;
+}
+
 @import "3-sections/navbar";
 
 .btn-xprimary {
@@ -37,6 +46,14 @@ h1, h2, h3 {
     color: #f17431 !important;
 }
 
+.text-pink {
+    color: $color-pink !important;
+}
+
+.text-brown {
+    color: $color-brown !important;
+}
+
 @media (min-width: 768px) {
     .bd-placeholder-img-lg {
         font-size: 3.5rem;
@@ -47,5 +64,7 @@ h1, h2, h3 {
 //@import "2-components/xdsoft";
 @import "2-components/floating-button";
 @import "2-components/breadcrumb";
+
+@import "3-sections/footer";
 
 // @import "2-components/data-notify";
