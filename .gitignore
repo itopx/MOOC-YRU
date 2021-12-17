@@ -1,6 +1,6 @@
 .idea
 node_modules
-!/public/assets/plugins/node_modules
+!/assets/plugins/node_modules
 .gitkeep
 
 /public/storage
