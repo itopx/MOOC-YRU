@@ -1,0 +1,51 @@
+@import "1-variables/fonts";
+@import "1-variables/color";
+
+html,
+body {
+    font-family: $body-font;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+@import "3-sections/navbar";
+
+.btn-xprimary {
+    border-radius: 50px;
+    background-color: #f5313f;
+    border-color: #e31e2c;
+    color: white;
+}
+
+.btn-xsuccess {
+    border-radius: 50px;
+    color: white;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.text-orage {
+    color: #f17431 !important;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+//@import "3-sections/full-calendar";
+//@import "2-components/xdsoft";
+@import "2-components/floating-button";
+@import "2-components/breadcrumb";
+
+// @import "2-components/data-notify";
